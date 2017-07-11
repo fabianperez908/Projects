@@ -1,0 +1,160 @@
+/*esta muy bien el css pero podrias ahorrar codigo agrupando los selectores que
+tienen propiedades repetidas de la siguiente manera:
+EJ:
+h1, h2{
+
+  aca poner todo lo que comparte:
+
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 500px;
+  background:orange;
+  border: 3px solid white;
+}*/
+h1{
+  padding-top: : 50px;
+padding-right: :50px;
+padding-bottom: 0px;
+padding-left: 500px;
+  background:orange;
+  margin: 45px;
+  border: 3px solid white;
+}
+h2{
+  padding-top: : 50px;
+padding-right: :50px;
+padding-bottom: 0px;
+padding-left: 500px;
+width: 150px;
+  background:orange;
+  font-size: 27px;
+  border: 3px solid white;
+}
+#inf {
+
+}
+#navegador {
+  text-align: center;
+  margin-right: 300px;
+  padding-left: 400px;
+
+}
+#dir {
+float: right;
+width: 30%;
+margin: 40px;
+border: 3px solid white;
+ }
+#img{
+  height: 70%;
+  width:20%;
+  float: left;
+  background-image: url(Foto_cv.jpg);
+  background-repeat: no-repeat;
+  margin-top: 150px;
+
+}
+#informacion_p {
+width:30%;
+margin: 40px;
+float:left;
+border: 3px solid white;
+}
+#Experiencia {
+  background:orange;
+  clear:both;
+  height: 60px;
+}
+h3 {
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 500px;
+  font-size:25px;
+  background:orange;
+
+}
+
+#form {
+margin-top:70px;
+background: orange;
+}
+h4{
+padding-top: : 50px;
+padding-right: :50px;
+padding-bottom: 0px;
+padding-left: 500px;
+font-size:25px;
+
+}
+.escuela  {
+
+font-size:20px;
+padding-top: : 50px;
+padding-right: :50px;
+padding-bottom: 0px;
+padding-left: 100px
+}
+.promocion {
+  font-size:20px;
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 100px
+}
+.curso {
+  font-size:20px;
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 100px
+}
+#idioma {
+
+background: orange;
+}
+h5 {
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 500px;
+  font-size:25px;
+}
+#informatica {
+  background:orange;
+}
+h6 {
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 500px;
+  font-size:25px;
+
+}
+#int {
+background: orange;
+}
+h7 {
+  padding-top: : 50px;
+  padding-right: :50px;
+  padding-bottom: 0px;
+  padding-left: 500px;
+  font-size:25px;
+  font-weight: bold;
+}
+p {
+  background: orange;
+  font-family:sans-serif;
+  font-size: 17px;
+}
+ul,li {
+  background: orange;
+  font-weight: bold;
+  font-size: 20;
+
+list-style: none;
+}
+body {
+  background:black;
+}

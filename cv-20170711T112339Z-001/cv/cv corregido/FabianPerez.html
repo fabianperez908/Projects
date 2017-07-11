@@ -1,0 +1,112 @@
+<!--muy buen orden del codigo! Fijate para la proxima que los h no tienen que tener todos una
+jerarquia distinta, varios pueden compartir la misma y soo hay hasta 6 distintos-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pérez Fabián,Darío CV</title>
+    <link rel="stylesheet"  href="cv.css">
+    <link rel="stylesheet" href="proyecto-cv/css/unslider.css">
+    <script src="proyecto-cv/js/jquery.min.js"></script>
+    <script src="proyecto-cv/js/jquery.js"></script>
+  </head>
+  <body>
+  <h1>Pérez Fabián,Darío</h1>
+  <h2> Front-end Jr.</h2>
+  <div id="inf">
+<!--muy interesante la resolucion de como pusiste la imagen,
+tal vez un poco rebuscado pero funciona bien-->
+    <div id="img">
+    </div>
+    <div id="navegador">
+      <ul>
+        <li><a href="#Experiencia">Experiencia Laboral</a></li>
+        <li><a href="#form">Formación</a></li>
+        <li><a href="#idioma">Idiomas</a></li>
+        <li><a href="#informatica">Informática</a></li>
+        <li><a href="#Int">Interéses</a></li>
+      </ul>
+    </div>
+  <div id="dir">
+  <ul>
+  <li>Dirección: Campana 4854 CABA</li>
+  <li>Correo electrónico: perezfabian908@gmail.com </li>
+  <li>Edad:19 años</li>
+  <li>Tel. particular: 45742154 </li>
+  <li>Telefono: 1556182542<!--falta cierre de li-->
+  <li>Skype: Fabian Perez</li>
+</ul>
+</div>
+<div id="informacion_p">
+  <p>Soy una persona con muchos interéses y gustos variados. Estoy
+terminando la secundaria y quiero incorporarme en una organización en donde pueda
+aprender y crecer en el ámbito profesional.Puedo trabajar en equipo y me siento
+ capaz de influenciar a mis compañeros
+de tal modo que el trabajo se lleve a cabo de la mejor forma y/o rápida posible.
+  Soy responsable con las tareas encomendadas.</p>
+</div>
+</div>
+<div id="Experiencia">
+<u>  <h3>Experiencia Laboral</h3></u>
+  <p>Como aún estoy en la secundaria, no tengo experiencia laboral.Mi
+objetivo es incorporarme en una organización en donde pueda apostar mi iniciativa
+y determinación en el logro de sus objetivos en un puesto de trabajo que resulte
+eficaz,productivo y mutuamente beneficioso.
+</p>
+</div>
+<div id="form">
+<u>  <h4> Formación</h4></u>
+  <u> <p class="escuela">-Cens 87: </p> </u>
+  <u> <p class="promocion">2015-2018 </p> </u>
+  <p>Me encuentro cursando la orientación en Relaciones de Trabajo e Higiene
+Laboral. Elegí esta orientación porque al no tener alguna experiencia laboral,
+puedo aprender todo sobre el trabajo en una empresa,prevención y recursos
+humanos.<!--falta cierre de p-->
+<u> <p class="curso">-Curso de programación- Aprendé Programando </p> </u>
+  <p> El curso de programación me ayudó a conocer cómo se empieza a desarrollar
+una web con html, css y javascript. </p>
+</div>
+<div id="idioma">
+  <u><h5>Idiomas </h5> </u>
+  <p>-Inglés (Básico-Secundario), aunque no haya hecho ningún curso de inglés,
+    comprendo el idioma y puedo hablarlo.</p>
+  </div>
+  <div id="informatica">
+    <u> <h6>Informática</h6> </u>
+  <p>-Tengo conocimientos en Microsft Word/Excel/Power Point,html,css,Outlook,Skype.</p>
+  <p>-Tipeo rápido </p>
+  <p>-Conocimientos básicos en armado de cpu </p>
+</div>
+<div id="Int">
+<u> <h7>Interéses</h7> </u>
+<ol>
+  <li>-Música</li>
+  <li>-Integridad Personal</li>
+  <li>-Deportes</li>
+  <li>-Informática</li>
+  <li>-Programación</li>
+  <li>-Seguridad</li>
+</ol>
+</div>
+<div id="portfolio">
+  <!--acordate que los h van hasta 6, solo marcan orden de jerarquia,
+  no hace falta que cada uno sea un h distinto, pueden varios tener la misma jerarquia-->
+  <h8> portfolio</h8>
+  <div class="slider">
+    <ul>
+      <li>CV</li>
+      <li>Noticias</li>
+      <li>Puzzle</li>
+    </ul>
+  </div>
+</div>
+<script
+jQuery(document).ready(function($){
+  $('.slider').unslider({
+arrows:false,
+autoplay:true
+
+});
+});
+</script>
+  </body>
+  </html>
